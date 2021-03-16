@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.bg-top{
+    position: absolute;
+    z-index: 0;
+    width: 40%;
+    bottom: 45%;
+    left: 8%;
+}
+
+.bg-btm{
+    position: absolute;
+    z-index: O;
+    width: 40%;
+    top:50%;
+    left:55%
+
+}
+.card{
+    border-radius: 10%;
+    border: solid 4px hsl(185, 75%, 39%);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 40%
+}
+
+.card-img-bg{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.card-profile-img{
+    width: 35%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 18%;
+    left: 32.5%;
+   border: solid 4px;
+   border-color: white;
+}
+
+.card-body{
+    margin-top: 20%;
+}
+table{
+    
+    padding: 0 auto;
+}
+th,td{
+    width: 33%;
+    padding: 0 10px;
+}
+
+.attribution{
+    margin-top: 50%;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+@media only screen and (max-width: 375px) {
+
+    
+    .bg-top{
+        position: absolute;
+        z-index: 0;
+        width: 50%;
+        bottom: 70%;
+        left: 0%;
+    }
+    
+    .bg-btm{
+        position: absolute;
+        z-index: O;
+        width: 50%;
+        top:50%;
+        left:55%
+    
+    }
+
+    .card{
+        
+        top: 20%;
+        left: 13%
+    }
+
+    .attribution{
+        margin: 200% auto 0 auto;
+        text-align: center;
+    }
+
+}
